@@ -1,0 +1,35 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+body {
+  height: 100vh;
+  display: flex;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(64, 66, 171),
+    rgb(110, 191, 105)
+  );
+  font-family: "Titillium Web";
+  color: white;
+}
+
+.container-lg {
+  text-align: center;
+  position: relative;
+}
+
+// .live-time {
+//   font-size: 6rem;
+// }
+
+.row {
+  position: absolute;
+  text-align: center;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 100%;
+}
+
+h1 {
+  font-size: calc(5.375rem + 1.5vw);
+}
